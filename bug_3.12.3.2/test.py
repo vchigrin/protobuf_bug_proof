@@ -4,3 +4,4 @@ import baz
 import sys
 sys.path.append('sub')
 import test_pb2
+print('Success.')
