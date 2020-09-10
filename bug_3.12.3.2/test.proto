@@ -1,0 +1,9 @@
+syntax = "proto3";
+import "test_options.proto";
+
+option (test_options.BigOpt) = "big";
+option (test_options.SmallOpt) = "small";
+
+message Foo {
+  int32 bar = 1;
+}
